@@ -1,0 +1,111 @@
+.custom-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #980c3c; 
+  color: white; 
+}
+.circular-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.fondo{
+    background-color: #f5f5dc
+    ;
+    justify-content: center;
+
+}
+.main-container {
+    padding: 300px;
+    background-color: #f5f5dc; /
+}
+
+
+.card {
+    border: none;
+    border-radius: 101px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #6c757d; 
+}
+.red-bg {
+    background-color: red;
+    color: white; /* Para asegurar que el texto sea legible */
+  }
+  body {
+    background-color: #b30e3d;
+    color: #fff;
+  }
+  .card {
+    background-color: #a00a32;
+    border: none;
+  }
+  
+  .card-title, .card-text {
+    color: #4f0d0d;
+  }
+  .btn-primary {
+    background-color: #ffd700;
+    border: none;
+    color: #a00a32;
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #6c757d;
+}
+.footer .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-content .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+.footer .footer-content .footer-section h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.footer .footer-content .footer-section p {
+    margin: 0;
+}
+.footer .footer-content .footer-section a {
+    color: #6c757d;
+    text-decoration: none;
+}
+.footer .footer-content .footer-section a:hover {
+    text-decoration: underline;
+}
+.footer .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+    margin-top: 20px;
+}  .background-red-medium {
+  background-color: #a71045; 
+  padding: 40px 0;
+}
+.card {
+  border: none; 
+}
